@@ -1,6 +1,6 @@
-def smallest_diff(array1, array2):
-    sorted_one = sorted(array1)
-    sorted_two = sorted(array2)
+def smallest_diff(arr1, arr2):
+    sorted_one = sorted(arr1)
+    sorted_two = sorted(arr2)
     idx_one = idx_two = 0
     pair = []
     smallest = float("inf")

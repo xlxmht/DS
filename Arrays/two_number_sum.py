@@ -66,7 +66,7 @@ def print_pairs(input_array, target):
         if target_sum in hash_map:
             aggregated_result.append([target_sum, num])
         else:
-            hash_map[num] = 'true'
+            hash_map[num] = True
     return aggregated_result
 
 

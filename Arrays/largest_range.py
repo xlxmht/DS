@@ -24,8 +24,11 @@ def largest_range(array):
     return best_range
 
 
-# test_array = [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6]
+test_array = [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6]
 # test_array = [4, 2, 1, 3, 6]
-test_array = [1]
+# test_array = [1]
 result = largest_range(test_array)
 print(result)
+
+
+# Putting all elements in a hash map allows constant look up and to track if any element is visited or not.
