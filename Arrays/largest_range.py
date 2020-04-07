@@ -26,7 +26,7 @@ def largest_range(array):
 
 test_array = [1, 11, 3, 0, 15, 5, 2, 4, 10, 7, 12, 6]
 # test_array = [4, 2, 1, 3, 6]
-# test_array = [1]
+# test_array = [-2,1,-3,4,-1,2,1,-5,4]
 result = largest_range(test_array)
 print(result)
 
