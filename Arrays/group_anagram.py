@@ -11,6 +11,7 @@ def group_anagram(strs):
         result.append(map[i])
     return result
 
-input = ["eat", "tea", "tan", "ate", "nat", "bat"]
-res = group_anagram(input)
+
+input_array = ["eat", "tea", "tan", "ate", "nat", "bat"]
+res = group_anagram(input_array)
 print(res)
