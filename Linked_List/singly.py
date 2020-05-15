@@ -68,10 +68,12 @@ class LinkedList:
 
     def print_list(self):
         temp = self.head
+        list = ""
         while temp:
-            print(temp.data)
+            # print(temp.data)
+            list += "->" + str(temp.data)
             temp = temp.next
-
+        print(list)
 
 if __name__ == "__main__":
     l_list = LinkedList()
