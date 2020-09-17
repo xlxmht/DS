@@ -11,11 +11,11 @@ def quick_sort(array, start, end):
 
 
 def partition(array, start_idx, end_idx):
-    pivot = array[start_idx]
+    # pivot = array[start_idx]
     pivot_idx = start_idx
     left = right = start_idx + 1
     while right <= end_idx:
-        if array[right] < pivot:
+        if array[right] < array[pivot_idx]:
             swap(array, left, right)
             left += 1
         right += 1
